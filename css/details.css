@@ -48,5 +48,6 @@ body{padding-top:50px;font-family:Helvetica,"Microsoft Yahei","Î¢ÈíÑÅºÚ",Arial,s
 .employbgcolor{background-color:#EBEBEB;}
 .employlabel{margin-right:6px;}
 
-
+.navbar-brand a:link{color:#CCC;text-decoration:none;}
+.navbar-brand a:visited{color:#CCC;text-decoration:none;}
 
