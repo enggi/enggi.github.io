@@ -8,7 +8,7 @@ body{padding-top:90px;font-family:Helvetica,"Microsoft Yahei","Î¢ÈíÑÅºÚ"
 #pruductDetail{margin:40px 0px 40px 0px;}
 
 .baidumap{width:100%;height:600px;border:#ccc solid 1px;font-size:12px;}
-#foot{height:auto;background-color:#666;padding:8px 0px;color:#CCC;margin-top:50px;}
+#foot{height:auto;background-color:#666;padding:8px 0px;color:#CCC;margin-top:10px;}
 .footinf{margin-top:15px;}
 .addbtn{margin-top:20px;font-size: 14px;}
 #pruductDetail a:hover{color:blue;}
@@ -62,7 +62,7 @@ body{padding-top:90px;font-family:Helvetica,"Microsoft Yahei","Î¢ÈíÑÅºÚ"
 .navadd{background-color: #f3f3f3;}
 .topnav{height:30px;background-color:#666;color:#FFF;line-height: 30px;}
 .navheight{height:auto;}
-.navheight > li > a{padding:25px;font-size: 16px;}
+.navheight > li > a{padding:20px;font-size: 16px;}
 .aa{font-size: 16px;}
 .enggitop{padding:0px;margin-top:4px;}
 .nav a:hover{color:red;}
