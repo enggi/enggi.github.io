@@ -8,7 +8,7 @@
 	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
 	<link href="css/details.css" rel="stylesheet" type="text/css">
 </head>
-<body>
+<body >
     <!-- 导航条 -->
 	<nav class="navbar navbar-default navbar-fixed-top navbar-inverse navadd" role="navigation" >
 	    <div class="container-fluid topnav"><div class="container"><p class="pull-right">客服热线：021-51985787</p></div></div>
@@ -33,14 +33,14 @@
 					</li>
 					<li><a href="#">合作伙伴</a></li>
 					<li><a href="Employ.html" >人才招聘</a></li>
-					<li class="dropdown">
+					<!-- <li class="dropdown">
 						<a href="index.html" class="dropdown-toggle"   data-toggle="dropdown" >关于我们<span class="caret"></span></a>
 							<ul class="dropdown-menu aa" role="menu">
 								<li><a href="index.html">公司简介</a></li>
 								<li><a href="index.html">员工风采</a></li>
 								<li><a href="index.html">联系我们</a></li>
 							</ul>
-					</li>
+					</li> -->
 				</ul>
 			</div>
 		  </div>
@@ -51,9 +51,7 @@
 		<ol class="carousel-indicators">
 		    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
 		    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-		    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
 		</ol>
-
 		<div class="carousel-inner" role="listbox">
 		    <div class="item active">
 		        <img src="images/roll1.jpg" alt="...">
@@ -63,23 +61,17 @@
 			      <img src="images/roll2.jpg" alt="...">
 			      <div class="carousel-caption"></div>
 			</div>
-			<div class="item">
-			      <img src="images/roll3.jpg" alt="...">
-			     <div class="carousel-caption"></div>
-			</div>
 		</div>
 		<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
 			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-			<span class="sr-only">Previous</span>
 		</a>
 		<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
 			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-			 <span class="sr-only">Next</span>
 		</a>
 	</div>
     
     <!-- 页面主题内容 -->
-    <div class="container" id="pruduct-container" data-target="#selector" data-spy="scroll"> 
+    <div class="container" id="pruduct-container"> 
         <!-- 产品 -->
 		<div class="row">
 			<div class="col-md-12" id="pro">
@@ -211,8 +203,8 @@
         <!-- 联系我们 -->
 		<ul class="nav nav-tabs" role="tablist">
 			<li><a href="#CompanyInf" role="tab" data-toggle="tab">公司介绍</a></li>
-			<li><a href="#Origization"  role="tab" data-toggle="tab">员工风采</a></li>
-			<li class="active"><a href="#Contact" role="tab" data-toggle="tab">联系我们</a></li>
+			<li class="active"><a href="#Origization"  role="tab" data-toggle="tab">员工风采</a></li>
+			<li><a href="#Contact" role="tab" data-toggle="tab">联系我们</a></li>
 		</ul>
 		<div class="tab-content">
 		    <div  class="tab-pane  frameFixed" id="CompanyInf">
@@ -225,14 +217,14 @@
 				<p>新公司致力于带给客户互联网时代全新的平台化顾问式服务，是一个年轻富有朝气的创业团队，努力追求梦想敢于运用自己的勇气和智慧颠覆传统商业模式。 公司实行宽松化、扁平化、平台化的管理模式，提供给个人终身制的职业能力培训和更广阔更公平的职业发展空间。</p>
 		    </div>
 			</div>
-		    <div class="tab-pane frameFixed" id="Origization">
+		    <div class="tab-pane active frameFixed" id="Origization">
 		    	<div class="row">
 				  <div class="col-sm-6 col-md-4">
 				    <div class="thumbnail">
 				      <img src="images/eng1.jpg" alt="...">
 				      <div class="caption">
 				        <h3>工作场景</h3>
-				        <p>大家都处在公司良好的环境及学习氛围中</p>
+				        <p>公司拥有良好的学习氛围</p>
 				      <!--   <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p> -->
 				      </div>
 				    </div>
@@ -244,7 +236,7 @@
 				      <img src="images/eng2.jpg" alt="...">
 				      <div class="caption">
 				        <h3>窗外一隅</h3>
-				        <p>赏心悦目的风景，让大家拥有一个愉悦的心情</p>
+				        <p>环境优雅，地理位置优越</p>
 				      <!--   <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p> -->
 				      </div>
 				    </div> 
@@ -254,8 +246,8 @@
 				    <div class="thumbnail">
 				      <img src="images/eng3.jpg" alt="...">
 				      <div class="caption">
-				        <h3>公司聚餐</h3>
-				        <p>通过聚餐，增进了公司上下的情感</p>
+				        <h3>休闲聚餐</h3>
+				        <p>公司上下拥有良好的友谊及团队精神</p>
 				      <!--   <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p> -->
 				      </div>
 				    </div>
@@ -263,8 +255,8 @@
 				  </div>
 			</div>
 
-		    <div class="tab-pane active frameFixed" id="Contact">
-			    <div class="baidumap" id="map"></div>
+		    <div class="tab-pane frameFixed" id="Contact">
+			    <img src="images/map.jpg">
 			</div>
 	    </div>
     </div>
