@@ -10,6 +10,11 @@ body{padding-top:100px;font-family:Helvetica,"Microsoft Yahei","微软雅黑",Ar
 .baidumap{width:100%;height:600px;border:#ccc solid 1px;font-size:12px;}
 #foot{height:auto;background-color:#333;padding:8px 0px;color:#CCC;margin-top:10px;}
 .footinf{margin-top:15px;}
+#footer{padding:8px 0px;color:#CCC;margin-top:30px;}
+.fbgpic{background-color: #930000;padding:40px 0;}
+.fbg{background-color:#333;}
+
+
 .addbtn{margin-top:20px;font-size: 14px;}
 #pruductDetail a:hover{color:#519BD8;}
 .textcenter{padding:15px 80px 0px 80px;text-align: left;}
@@ -54,11 +59,11 @@ body{padding-top:100px;font-family:Helvetica,"Microsoft Yahei","微软雅黑",Ar
 .rowadd{margin-bottom: 40px;}
 .navadd{background-color: #f3f3f3;}
 .addnav{margin-top:-41px;padding-left:400px;} 
-.topnav{height:30px;background-color:#383737;color:#FFF;line-height: 30px;}
+.topnav{height:30px;background-color:#b81b24;color:#FFF;line-height: 30px;}
 .navheight{height:auto;}
 .navheight > li > a{padding:25px;font-size: 16px;}
 .aa{font-size: 16px;}
-.enggitop{padding:0px;margin-top:4px;}
+.enggitop{padding:6px 0 0 0;margin-top:4px;}
 .nav a:hover{color:red;}
 .navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover{color:#519BD8;}
 .navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > li > a{color:#000;}
