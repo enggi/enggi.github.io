@@ -77,5 +77,8 @@ body{padding-top:90px;font-family:Helvetica,"Microsoft Yahei","微软雅黑",Ari
 .jobbottom{margin-bottom:5px;font-size:16px;}
 .jobbottom a:hover{color:#f4645f;text-decoration:none;}
 .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{background-color: #519BD8;}
-
+#parter{text-align: center;}
+#parter a{color:#666;text-decoration: none;} a{color:#666;text-decoration: none;}
+#parter a:hover{color:#b81c22;text-decoration: none;}
+.addthumbnail{margin-bottom:40px;}
 
