@@ -98,7 +98,7 @@ body{padding-top:100px;font-family:Helvetica,"Microsoft Yahei","微软雅黑",Ar
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{background-color: #ccc;} /*点击背景颜色*/
 .lastline{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
 .btn-default:hover{color:#db001b;background-color:#FFF;border-color:#ccc;}
-@media (max-width:769px)
+@media (max-width:767px)
 	{
 		.mediatextsize{padding:25px 8px;}
 		.mediatextcenter{padding:15px 10px 0px 10px;}
