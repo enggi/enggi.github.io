@@ -5,7 +5,7 @@ body{padding-top:100px;font-family:Helvetica,"Microsoft Yahei","微软雅黑",Ar
 .carousel .item{background-color:#000;}
 .carousel-caption p{margin-bottom:50px;font-size:20px;line-height:2em;}
 #pruduct-container{text-align:center;}
-.pruductDetail{margin:40px 0px 40px 0px;}
+.pruductDetail{margin:40px 0px;}
 /*.baidumap{width:100%;height:600px;border:#ccc solid 1px;font-size:12px;}*/
 /*#foot{height:auto;background-color:#333;padding:8px 0px;color:#CCC;margin-top:10px;}
 .footinf{margin-top:15px;}
@@ -16,8 +16,6 @@ body{padding-top:100px;font-family:Helvetica,"Microsoft Yahei","微软雅黑",Ar
 #pruductDetail a:hover{color:#519BD8;}
 .textcenter{padding:15px 80px 0px 80px;text-align: left;}
 /*.textcenter{padding:15px 20px 0px;text-align: left;}*/
-
-
 .hrmargin{margin-top:45px;margin-bottom: 60px;}
 .frameFixed{width:100%;background-color:#EEE;}
 .textsize{font-size:18px;padding:30px 60px;text-align: left;line-height:1.5em;}
@@ -120,6 +118,5 @@ body{padding-top:100px;font-family:Helvetica,"Microsoft Yahei","微软雅黑",Ar
 		.mediabtntwo{margin-bottom:10px; margin-top:25px;}
 		.mediahr{margin:10px 0px;}
 		.mediafthree{height:40px;padding-top: 20px;}
-
 	}
 
