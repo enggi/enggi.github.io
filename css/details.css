@@ -12,6 +12,14 @@ body{padding-top:72px;font-family:Helvetica,"Microsoft Yahei","微软雅黑",Ari
 */
 
 
+.navbar-inverse .navbar-toggle {
+    border-color: #efefef;
+}
+.navbar-default .navbar-toggle {
+    border-color: #efefef;
+}
+
+
 .addbtn{margin-top:20px;font-size: 14px;}
 #pruductDetail a:hover{color:#519BD8;}
 /*.textcenter{padding:15px 80px 0px 80px;text-align: left;}*/
