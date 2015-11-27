@@ -1,6 +1,6 @@
-p,body,hr,ul,li,caption{padding:0;margin:0;}
+﻿p,body,hr,ul,li,caption{padding:0;margin:0;}
 body{overflow:scroll;overflow-x:hidden;}
-body{padding-top:100px;font-family:Helvetica,"Microsoft Yahei","微软雅黑",Arial,sans-serif;}
+body{padding-top:72px;font-family:Helvetica,"Microsoft Yahei","微软雅黑",Arial,sans-serif;}
 .carousel{background-color:#000;margin-bottom:60px;}
 .carousel .item{background-color:#000;}
 .carousel-caption p{margin-bottom:50px;font-size:20px;line-height:2em;}
