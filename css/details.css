@@ -59,6 +59,8 @@ body{padding-top:72px;font-family:Helvetica,"Microsoft Yahei","微软雅黑",Ari
 .notifytitle{border-bottom: 1px solid #CCC;overflow: auto;position:relative;}
 .notifycaption{font-size:22px;color:#337ab7;float:left;border-bottom: 1px solid #519BD8;}
 .notifymore{font-size:18px;color:#CCC;position:absolute; right:0; bottom:0;}
+.navbar-brand{padding:10px 15px}
+.navbar-height{height:70px;} 
 .navbar-brand a:link{color:#CCC;text-decoration:none;}
 .navbar-brand a:visited{color:#CCC;text-decoration:none;}
 .ab{margin-top:20px;}
@@ -69,7 +71,7 @@ body{padding-top:72px;font-family:Helvetica,"Microsoft Yahei","微软雅黑",Ari
 .navheight{height:auto;}
 .navheight > li > a{padding:25px;font-size: 16px;}
 .aa{font-size: 16px;}
-.enggitop{padding:6px 0 0 0;margin-top:4px;}
+/*.enggitop{padding:6px 0 0 0;margin-top:4px;}*/
 .nav a:hover{color:red;}
 .navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover{color:#db001b;}
 .navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > li > a{color:#000;}
@@ -95,7 +97,6 @@ body{padding-top:72px;font-family:Helvetica,"Microsoft Yahei","微软雅黑",Ari
 #footer a:hover{color:#000;text-decoration: none;}
 .fbgpic{background-color:#C9393B;padding:30px 0;}
 .fbg{background-color:#333;}
-
 .fone{height:100px;border-left:1px solid #E5545F;border-right:1px solid #E5545F;font-size: 16px;}
 .ftwo{height:100px;padding-top: 5px;}
 .fthree{height:100px;border-left:1px solid #E5545F;border-right:1px solid #E5545F;padding-top: 40px;}
@@ -110,15 +111,20 @@ body{padding-top:72px;font-family:Helvetica,"Microsoft Yahei","微软雅黑",Ari
 .proimg{width:30%;float:left;}
 .protxt{width:70%;float:left;}
 .item img{margin:auto;}
-
-.backtotop{position:fixed;right:100px;bottom:10px;width:40px;height:40px;text-align: center;display:block;cursor:pointer;vertical-align: middle;background-color: #888;}
+.navbar-toggle{padding:9px 10px;margin-top:28px;}
+.backtotop{position:fixed;right:100px;bottom:60px;width:40px;height:40px;text-align: center;display:block;cursor:pointer;vertical-align: middle;background-color: #888;}
 .backtotop .inner{padding-top:8px;font-size:24px;color:#fff;}
 .backtotop .inner:hover{color:#F4655F;}
+.department-color{color:#db001b;}
+.dropdown-menu > li > a{text-align: center;}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{color:#db001b;text-align: center;}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{border-color:#CCC;}
+.navlogo{background:url("images/logo.png") no-repeat 0 50%;}
 @media (max-width:767px)
 	{
 		.mediatextsize{padding:25px 8px;}
 		.mediatextcenter{padding:15px 10px 0px 10px;}
-		.mediaenggitop{padding:0px;margin-top:-2px;}
+		/*.mediaenggitop{padding:0px;margin-top:-2px;}*/
 		.repullright{text-align:right;}
 		.repullleft{text-align:left;}
 		.nodisplay{display: none;}	
@@ -129,20 +135,31 @@ body{padding-top:72px;font-family:Helvetica,"Microsoft Yahei","微软雅黑",Ari
 		.mediapruductDetail{margin:10px 0px;}
 		.mediatextcenter{padding:1px 0px 0px 0px;}
 		.mediafooter{margin-top:10px;}
-		.mediaaddbtn{margin-top:5px;}
+		.mediaaddbtn{margin-top:5px;}javascript:;
 		.mediabtnone{margin-bottom:40px;}
 		.mediabtntwo{margin-bottom:10px;}
 		.mediahr{margin:10px 0px 0px 0px;}
-		.mediafthree{height:40px;padding-top:20px;}
+		.mediafthree{height:40px;padding-top:24px;}
 		.carousel{margin-bottom:16px;}
 		.partertop{margin-top:20px;}
-		.enggitop img{height:100%;width:100%;}
-
+		/*.enggitop img{height:100%;width:100%;padding:5px;}*/
+		.media-aright{padding-right:16px;}
+		.media-aleft{padding-left:16px;}
+		.navbar-nav .open .dropdown-menu > li > a, .navbar-nav .open .dropdown-menu .dropdown-header{padding:3px 3px 3px 3px;}
+		.dropdown-menu > li > a{padding:3px 0px;}
+		.dropdown-menu{min-width: 120px;}
+		.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus{color:#db001b;}
+	    body{padding-top:70px;}
 	}
 	@media (max-width:400px)
 	{
 		.mediabtnone img{width:100%;height:100%;margin-top:34px;}
 		.mediabtntwo img{width:100%;height:100%;margin-top:34px;}
 		.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12{padding-left:0px;padding-right:0px;}
+	    .navheight > li > a{padding:5px 25px;font-size: 16px;}
+	    .addheader{height:120px;}
+	    .postone{margin-top:0px;}
+	    .post{margin-bottom:25px;}
+		.postlast{margin-bottom:0px;
 	}
 
