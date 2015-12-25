@@ -29,7 +29,7 @@ body{padding-top:72px;font-family:Helvetica,"Microsoft Yahei","微软雅黑",Ari
 .textsize{font-size:18px;padding:30px 60px;text-align: left;line-height:1.5em;}
 .textsize p{margin-bottom: 16px;text-indent: 2em;}
 .frameFixed img{height:100%;width:100%;}  
-.addheader{height:300px;background-image: url("../images/employ1.jpg") no-repeat;}
+.addheader{height:300px;background-color:#e6bd01;}
 .addheader img{max-width:100%;height:100%;}
 .addcontainer{padding-top:160px;text-align:center;color:#FFF;}
 .mulcontent{height:800px;width:100%;}
