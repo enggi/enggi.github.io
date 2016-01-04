@@ -1,7 +1,7 @@
 .cooperate-banner{height:260px;position:relative;font-size:0;overflow:hidden}
 .cooperate-banner img{position:absolute;width:1920px;height:260px;display:block;margin-left:-960px;top:0;left:50%}
-.cooperate-main{width:980px;margin-left:auto;margin-right:auto;padding:70px 0 80px}
-.cooperate-main .cooperate-text{line-height:32px;font-size:18px;color:#212121;text-indent:2em;margin-bottom:70px}
+.cooperate-main{width:980px;margin-left:auto;margin-right:auto;padding:40px 0 50px}
+.cooperate-main .cooperate-text{line-height:32px;font-size:18px;color:#212121;text-indent:2em;margin-bottom:50px}
 .cooperate-main .cooperate-block{margin-bottom:40px}
 .cooperate-main .cooperate-block .cooperate-title{height:60px;line-height:60px;font-weight:700;color:#666;font-size:24px}
 .cooperate-main .cooperate-block .cooperate-list{width:980px}
