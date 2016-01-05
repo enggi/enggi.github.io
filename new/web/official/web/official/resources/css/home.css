@@ -7,7 +7,7 @@
 .ow-product li{position:relative}.ow-product a{display:block;position:relative;width:312px;height:180px;overflow:hidden}
 .ow-product a img{-webkit-transition:all .6s}
 .ow-product a:hover img{position:absolute;-webkit-transform:scale(1.05)}
-.ow-bd-text{height:88px;position:relative}
+.ow-bd-text{height:168px;position:relative}
 .ow-bd-text .bd-line{position:absolute;width:100%;height:1px;overflow:hidden;line-height:0;font-size:0;background-color:#e6e6e6;top:45px;left:0;z-index:1}
 .ow-bd-text .bd-main{position:relative;z-index:2;height:88px;width:450px;text-align:center;background-color:#fff;margin-left:auto;margin-right:auto}
 .ow-bd-text .bd-main h2{height:50px;line-height:50px;padding-bottom:4px;color:#666;font-size:34px}
